@@ -1,0 +1,25 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Envs / secrets
+.env
+.venv/
+env/
+*.log
+*.sqlite3
+
+# IDE / tooling
+.vscode/
+.idea/
+.pytest_cache/
+htmlcov/
+coverage.*
+
+# Docker
+**/Dockerfile
